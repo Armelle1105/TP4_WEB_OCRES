@@ -1,8 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Bouton from './bouton.js';
+import Profile from './profile.js';
 
 function App() {
   return (
+    <div> 
+      <Bouton text = "Hello world" />
+      <Profile text = "Hello " />
+    </div>
+   
+
+/*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,8 +26,12 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
+
   );
 }
 
 export default App;
+
+
+
